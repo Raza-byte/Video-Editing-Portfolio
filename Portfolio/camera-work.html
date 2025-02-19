@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Professional Services</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+        }
+
+        .hero {
+            height: 60vh;
+            background: url('CAMERA_WORK.JPG') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            padding: 0 10%;
+            color: white;
+            position: relative;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay to improve text readability */
+        }
+
+        .hero h1, .hero p {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        .content {
+            padding: 5rem 10%;
+        }
+
+        .content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            opacity: 0.9;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.8rem 2rem;
+            background-color: #90c73e;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <h1>Professional Camera Work</h1>
+        <p>Capturing moments with precision and artistic vision.</p>
+    </section>
+    
+    <section class="content">
+        <h2>Why Camera Work is Important</h2>
+        <p>Camera work involves the skillful handling of a camera to frame shots, capture movement, and produce high-quality visuals. Professional cinematography techniques enhance storytelling and bring life to scenes.</p>
+        
+        <h2>Our Camera Work Services</h2>
+        <p>We offer expert camera work services for events, short films, documentaries, commercials, and corporate videos. Our team ensures smooth shots, perfect angles, and high-quality recordings.</p>
+        
+        <a href="index.html" class="back-btn">Back to Home</a>
+    </section>
+
+</body>
+</html>
